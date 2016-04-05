@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://sdk.amazonaws.com/js/aws-sdk-2.3.0.min.js')
+    script(src="/javascripts/lib/axios/dist/axios.standalone.js")
+    script(src="/javascripts/lib/CryptoJS/rollups/hmac-sha256.js")
+    script(src="/javascripts/lib/CryptoJS/rollups/sha256.js")
+    script(src="/javascripts/lib/CryptoJS/components/hmac.js")
+    script(src="/javascripts/lib/CryptoJS/components/enc-base64.js")
+    script(src="/javascripts/lib/url-template/url-template.js")
+    script(src="/javascripts/lib/apiGatewayCore/sigV4Client.js")
+    script(src="/javascripts/lib/apiGatewayCore/apiGatewayClient.js")
+    script(src="/javascripts/lib/apiGatewayCore/simpleHttpClient.js")
+    script(src="/javascripts/lib/apiGatewayCore/utils.js")
+    script(src="/javascripts/apigClient.js")
+    script(src='/javascripts/upload.js')
+  body
+    block content
